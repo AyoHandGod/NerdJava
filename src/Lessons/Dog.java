@@ -7,19 +7,22 @@ public class Dog {
     String color;
     String breed;
 
-    public Dog(String name) {
-
+    public Dog(String name, String breed, String color, int age) {
+        this.name = name;
+        this.breed = breed;
+        this.color = color;
+        this.age = age;
     }
 
-    void barking() {
-        System.out.println();
+    public void barking() {
+        System.out.println(this.name + " is barking");
     }
 
-    void hungry () {
-
+    public void hungry () {
+        System.out.println(this.name + " is hungry.");
     }
 
-    void sleeping () {
-
+    public void sleeping () {
+        System.out.println(this.name + " is sleeping now.");
     }
 }
