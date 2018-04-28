@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class Dice {
 
-    private int sides;
-    private int face;
+    protected int sides;
+    protected int face;
 
     /**
      * Dice object constructor #1

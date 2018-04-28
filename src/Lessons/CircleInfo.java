@@ -41,5 +41,5 @@ public class CircleInfo {
         g.setColor( Color.black);
         g.drawOval( x - radius, y - radius, 2*radius, 2*radius);
     }
-    
+
 }

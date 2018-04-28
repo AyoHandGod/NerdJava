@@ -5,7 +5,6 @@ public class Library {
     private Book[] collection;
 
 
-
     public static void main(String[] args){
         // Create Two Libraries
 
