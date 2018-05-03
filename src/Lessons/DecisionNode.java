@@ -6,6 +6,9 @@ public class DecisionNode {
     private double bottomPayout;
     private ProbabilityNode probPayout;
 
+    /**
+     * DecisionNode Constructor
+     */
     DecisionNode() {
         Scanner reader = new Scanner(System.in);  // Scanner to get values for tree
         System.out.println("Provide the payout value for no action: ");
@@ -21,19 +24,20 @@ public class DecisionNode {
             lossPayout *= -1;
         }
         probPayout = new ProbabilityNode(successProb, successPayout, lossPayout);
-    }
+    } // end of DecisionNode()
+
 
     public double getBottomPayout() {
         return bottomPayout;
-    }
+    } // end of getBottomPayout();
 
     public void setBottomPayout( double nPayout ){
         bottomPayout = nPayout;
-    }
+    } // end of setBottomPayout();
 
     public double getProbPayout() {
         return probPayout.getValue();
-    }
+    }  // end of getProbPayout();
 
     public boolean evaluate() {
         if(probPayout.getValue() > bottomPayout){
@@ -41,7 +45,7 @@ public class DecisionNode {
         } else {
             return false;
         }
-    }
+    } // end of evaluate()
 
 
 

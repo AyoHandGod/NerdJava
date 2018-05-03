@@ -23,7 +23,7 @@ public class Dice {
     Dice(int sides, int face){
         this.sides = sides;
         this.face = face;
-    }
+    } // end of constructor #2
 
 
     /**
@@ -47,7 +47,7 @@ public class Dice {
             nSides = reader.nextInt();
         }
         sides = nSides;
-    }
+    }  // end of setSides()
 
 
     /**
@@ -88,7 +88,7 @@ public class Dice {
         double average = cTotal / trials;
         System.out.println("The average number of rolls before snake eyes " +
                 "in " + trials + " rolls, is " + average);
-    }
+    } // end of snakeAverage
 
 
     /**
@@ -112,5 +112,5 @@ public class Dice {
 
         // call our snakeAverage method using the two dice.
         snakeAverage(d1, d2, 5);
-    }
-}
+    } // end of main()
+} // end of Dice class

@@ -36,10 +36,7 @@ public class Main {
 //                    " with a time of " + times[winner]);
 //
 //            System.out.println("The racer in second place is " + names[second] + " with a " +
-//                    "time of " + times[second]);
-            Dog Jim = new Dog("Jim", "pit-bull", "grey", 2);
-            Jim.barking();
-            System.out.println(Jim.toString());
+//                    "time of " + times[second])
         }
     }
 

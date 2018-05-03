@@ -2,27 +2,32 @@ package Lessons;
 
 public class Dog {
 
-    String name;
-    int age;
-    String color;
-    String breed;
+    protected String name;
+    protected int age;
+    protected String color;
 
-    public Dog(String name, String breed, String color, int age) {
+    public Dog(){
+        name = "stray";
+        age = 99;
+        color = "dirty";
+    }
+
+    public Dog(String name){
         this.name = name;
-        this.breed = breed;
-        this.color = color;
+    }
+
+    public Dog(String name, int age, String color){
+        this.name = name;
         this.age = age;
+        this.color = color;
     }
 
-    public void barking() {
-        System.out.println(this.name + " is barking");
+    public String getName(){
+        return name;
     }
 
-    public void hungry () {
-        System.out.println(this.name + " is hungry.");
-    }
-
-    public void sleeping () {
-        System.out.println(this.name + " is sleeping now.");
+    public void setName(String newName) {
+        System.out.println(name + "'s name is now " + newName);
+        name = newName;
     }
 }

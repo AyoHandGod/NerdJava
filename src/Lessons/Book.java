@@ -35,5 +35,5 @@ public class Book {
         System.out.println("Borrowed?: " + example.isBorrowed());
         example.returned();
         System.out.println("Borrowed?: " + example.isBorrowed());
-    }
+    }  // end of main()
 }

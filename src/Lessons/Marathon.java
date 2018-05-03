@@ -16,7 +16,7 @@ public class Marathon {
             count++;
         }
         return winnerIndex;
-    }
+    }  // end of winner()
 
     public static int secondPlace(int[] raceTimes){
 
@@ -38,7 +38,8 @@ public class Marathon {
                 secondPlace = elements;
             }
             count++;
-        }
+        } // end of foreach loop
+
         return secondIndex;
-    }
+    } // end of secondPlace()
 }
