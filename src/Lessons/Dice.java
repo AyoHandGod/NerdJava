@@ -106,6 +106,7 @@ public class Dice {
         // just to test.
         Dice d1 = new Dice(6);
         Dice d2 = new Dice(6, 3);
+        d2.setSides(6);
 
         // Roll dice one to generate a face value for it
         d1.roll();
