@@ -2,6 +2,9 @@ package Lessons;
 
 public class GuessingGame {
 
+    static int gamesPlayed = 0;
+    static int gamesWon = 0;
+
     static void playGame() {
         int computersNumber; // A random number picked by the computer
         int usersGuess;      // A number entered by the player as a guess
@@ -18,6 +21,7 @@ public class GuessingGame {
             if(usersGuess == computersNumber){
                 System.out.println("You got it in " + guessCount
                 + " guesses! My number was " + computersNumber);
+                gamesWon++;
                 break; // The game is over; Player wins.
             }
             if (guessCount == 6){
@@ -31,10 +35,11 @@ public class GuessingGame {
                 System.out.println("That's too high. Try again: ");
             }
             System.out.println();
-        }
+            gamesPlayed++;
+        };
     } // end of playGame()
 
-    public static void main(String[] args){
+    static void main(String[] args){
         System.out.println("Let's play a game. I'll pick a number between");
         System.out.println("1 and 100, and you try to guess it.");
         boolean playAgain;
