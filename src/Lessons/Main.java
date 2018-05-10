@@ -37,6 +37,9 @@ public class Main {
 //
 //            System.out.println("The racer in second place is " + names[second] + " with a " +
 //                    "time of " + times[second])
+
+        Mosaic n = new Mosaic();
+        n.open();
         }
     }
 
