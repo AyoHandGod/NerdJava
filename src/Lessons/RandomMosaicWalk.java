@@ -7,6 +7,8 @@ package Lessons;
  */
 public class RandomMosaicWalk {
 
+    static final int rows = 16;
+    static final int columns = 20;
     static int currentRow;   // Row currently containing the disturbance.
     static int currentColumn; // Column currently containing the disturbance.
 
@@ -16,7 +18,8 @@ public class RandomMosaicWalk {
      * as long as the window is open.
      */
     public static void main(String[] args){
-        Mosaic.open(16,20,25,25);
+
+        Mosaic.open(rows, columns,25,25);
         fillWithRandomColors();
         currentRow = 8;   // start at center of window
         currentColumn = 10;
@@ -29,7 +32,12 @@ public class RandomMosaicWalk {
     } // end main()
 
     static void fillWithRandomColors() {
-
+        int row, column;
+        for (row=0; row < 16; row++){
+            for (column=0; column < 20; column++){
+                changeToRandomColor(row, column);
+            }
+        }
     } // end fillWithRandomColors()
 
     static void changeToRandomColor(int rowNum, int colNum){
@@ -39,5 +47,5 @@ public class RandomMosaicWalk {
     static void randomMove() {
 
     } // end randomMove()
-    
+
 }  // end class RandomMosaicWalk
