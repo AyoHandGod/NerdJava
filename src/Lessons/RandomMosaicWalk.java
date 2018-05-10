@@ -31,6 +31,11 @@ public class RandomMosaicWalk {
         }
     } // end main()
 
+    /**
+     * Fills the window with randomly colored squares.
+     * Precondition: The mosaic window is open
+     * Postcondition: Each square has been set to a random color.
+     */
     static void fillWithRandomColors() {
         int row, column;
         for (row=0; row < 16; row++){
@@ -40,8 +45,22 @@ public class RandomMosaicWalk {
         }
     } // end fillWithRandomColors()
 
+    /**
+     * Changes one square to a new randomly selected color.
+     * Precondition:  The specified rowNum and colNum are in the valid range
+     *                of row and column numbers
+     * Postcondition: The square in the specified row and column has
+     *                been set to a random color.
+     * @param rowNum the row number of the square, counting rows down from
+     *               0 at the top
+     * @param colNum the column number of the square, counting columns over
+     *               from 0 at the left
+     */
     static void changeToRandomColor(int rowNum, int colNum){
-
+        int red = (int)(256*Math.random());  // choose random levels in range
+        int green = (int)(256*Math.random());  // 0 to 255 for red, green,
+        int blue = (int)(256*Math.random());  // and blue color components.
+        Mosaic.setColor(rowNum, colNum, red, green, blue);
     } // end changeToRandomColor()
 
     static void randomMove() {
