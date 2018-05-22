@@ -1,0 +1,24 @@
+
+>squid:S2140")Use "java.util.Random.nextInt()" instead.(ôåíµ
+^squid:S3358"DExtract this nested ternary operation into an independent statement.(ÚÏØüÿÿÿÿ
+^squid:S3358"DExtract this nested ternary operation into an independent statement.(¨º¯¾øÿÿÿÿ
+^squid:S3358"DExtract this nested ternary operation into an independent statement.(ÇƒĞùÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÑŒÈú
+isquid:S00116"NRename this field "OSI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ê‡ñüÿÿÿÿ
+hsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(µƒªõ
+>squid:S2140")Use "java.util.Random.nextInt()" instead.(Ëı¯Ç
+Ysquid:S3358"DExtract this nested ternary operation into an independent statement.(ËÚú
+?squid:S1948"%Make "OSG" transient or serializable.(®Ñ¨×ûÿÿÿÿ
+?squid:S1948"%Make "OSI" transient or serializable.(¢Ê‡ñüÿÿÿÿ
+Osquid:S1161":Add the "@Override" annotation above this method signature(³ıŸê
+^squid:S3358"DExtract this nested ternary operation into an independent statement.(ß’ëÔøÿÿÿÿ
+Ysquid:S3358"DExtract this nested ternary operation into an independent statement.(ë¯İÑ
+Csquid:S2140")Use "java.util.Random.nextInt()" instead.(â—”éøÿÿÿÿ
+hsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(ÑŒÈú
+^squid:S3358"DExtract this nested ternary operation into an independent statement.(ß’ëÔøÿÿÿÿ
+^squid:S3358"DExtract this nested ternary operation into an independent statement.(ÇƒĞùÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(û®ÀĞıÿÿÿÿ
+Bsquid:S1172"(Remove this unused method parameter "c".(Ôõè€ıÿÿÿÿ
+usquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦»İ´şÿÿÿÿ
+Ysquid:S3358"DExtract this nested ternary operation into an independent statement.(ë¯İÑ
+isquid:S00116"NRename this field "OSG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®Ñ¨×ûÿÿÿÿ

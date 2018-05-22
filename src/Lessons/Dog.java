@@ -1,6 +1,6 @@
 package Lessons;
 
-public class Dog {
+public abstract class Dog {
 
     protected String name;
     protected int age;
@@ -45,6 +45,10 @@ public class Dog {
 
     public void setColor(String newColor){
         color = newColor;
+    }
+
+    public void bark() {
+        System.out.println("A loud bark erupts!!");
     }
 
 }  // End of Dog class

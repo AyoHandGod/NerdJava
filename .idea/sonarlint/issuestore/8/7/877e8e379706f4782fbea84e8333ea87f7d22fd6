@@ -1,0 +1,8 @@
+
+=squid:S1068"(Remove this unused "KING" private field.(à¦’
+Asquid:S1068"'Remove this unused "ACE" private field.(‘¹Çïúÿÿÿÿ
+Csquid:EmptyStatementUsageCheck"Remove this empty statement.(Óìõf
+Csquid:S1068")Remove this unused "QUEEN" private field.(…÷Ö¸úÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(¸îûåøÿÿÿÿ
+usquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦»İ´şÿÿÿÿ

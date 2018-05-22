@@ -1,0 +1,6 @@
+
+hsquid:S1192"NDefine a constant instead of duplicating this literal "(row,col) = (" 5 times.(û¥€Íùÿÿÿÿ
+msquid:S1192"XDefine a constant instead of duplicating this literal ") is not in the mosaic." 5 times.(ó¾žý
+`squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ð‹Ù¼ùÿÿÿÿ
+Dsquid:S00108")Either remove or fill this block of code.(ð‹Ù¼ùÿÿÿÿ
+usquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦»Ý´þÿÿÿÿ
